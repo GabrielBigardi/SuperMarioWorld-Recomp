@@ -1,0 +1,2 @@
+# Extra 65816 entry points (BBAAAA flagstate) found at run time, e.g. from smw_misses.txt.
+# The recompiler adds them as roots; flag states: m0x0 m0x1 m1x0 m1x1 e

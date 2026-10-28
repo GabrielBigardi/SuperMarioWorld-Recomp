@@ -1,0 +1,42 @@
+# Game data: bring your own ROM, never commit it
+*.sfc
+*.smc
+*.swc
+*.fig
+*.srm
+*.state
+
+# Build output (includes code generated from the ROM)
+/build*/
+/generated/
+/out/
+*.obj
+*.exe
+*.pdb
+*.ilk
+
+# Runtime files
+smw.ini
+smw_misses.txt
+screenshot*.bmp
+
+# Downloaded / generated test data and outputs
+tests/cpu_sst/data/
+tests/cpu_sst/tests.txt
+tests/apu_test/data/
+tests/apu_test/build/
+tests/apu_test/out/
+tests/ppu_test/out/
+tests/headless/obj2/
+tests/headless/sweep/
+*.raw
+*.wav
+
+# Local tools
+/third_party/
+__pycache__/
+*.pyc
+.vs/
+.vscode/
+.idea/
+CMakeUserPresets.json
